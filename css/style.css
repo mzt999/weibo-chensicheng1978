@@ -111,6 +111,14 @@ a, a:visited {
   -moz-border-radius: 1px;
   border-radius: 1px;
 }
+@media all and (max-width: 425px) {
+  .go-top {
+    display: none;
+  }
+  .go-bottom {
+    bottom: 80px;
+  }
+}
 /* toTop button end */
 .go-top-hidden {
 	opacity: 0;
