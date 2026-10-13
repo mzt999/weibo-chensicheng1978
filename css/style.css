@@ -122,7 +122,6 @@ a, a:visited {
   margin: 6px;
   padding: 10px 20px;
   width: 155px;
-  max-width: 100%;
   height: calc(100% - 40px);
   background: white;
 }
@@ -219,7 +218,11 @@ footer p {
 }
 @media all and (max-width: 425px) {
   .side-left {
+    position: relative;
     margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: transparent;
   }
   .side-right {
     display: none;
