@@ -20,17 +20,6 @@ body {
 #__layout {
   margin: 0px;
 }
-.read-more {
-  padding: 4px 8px;
-  font-size: 14px;
-  text-decoration: none;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-.read-more:hover {
-  color: black;
-  border-color: black;
-}
 .container-main {
 	margin: 0px auto;
 	width: 100%;
@@ -56,90 +45,6 @@ a, a:visited {
 }
 .blog-link:hover {
   color: gray;
-}
-.blog-date, .blog-tags {
-	font-family: "Arial";
-	color: gray;
-	font-size: 14px;
-}
-.blog-lang {
-	padding: 0px 5px;
-  font-size: 14px;
-  text-align: center;
-  color: gray;
-  text-decoration: none;
-  border: 1px solid silver;
-  border-radius: 4px;
-  display: inline-block;
-}
-.blog-lang a {
-	text-decoration: none;
-	display: inline-block;
-}
-.blog-lang:hover {
-	color: black;
-	border-color: black;
-}
-.blog-cat, .blog-tag {
-  margin: 1px;
-  padding: 0px 8px 1px 8px;
-  font-size: 14px;
-  font-family: 'Noto Sans SC', sans-serif;;
-  line-height: 20px;
-  border-radius: 999px;
-  display: inline-block;
-}
-.blog-cat {
-	color: #4c4c4c;
-	border: 1px solid #4c4c4c;
-}
-.blog-tag {
-	color: white;
-	background: gray;
-}
-.blog-cat:hover {
-	color: white;
-}
-.blog-cat:hover, .blog-tag:hover {
-	background: black;
-}
-.blog-cat i, .blog-tag i {
-	color: inherit;
-}
-.blog-cat a, .blog-tag a{
-	text-decoration: none;
-	color: inherit;
-	display: inline-block;
-}
-.font-10 {
-  font-size: 10px;
-}
-.font-14 {
-  font-size: 14px;
-}
-.font-16 {
-  font-size: 16px;
-}
-.font-18 {
-  font-size: 18px;
-}
-.font-20 {
-  font-size: 20px;
-}
-.font-24 {
-  font-size: 24px;
-}
-.font-bold {
-  font-weight: bold;
-}
-.font-norm {
-  font-weight: normal;
-}
-.align-center {
-  text-align: center;
-}
-.m-top-0 {
-	margin-top: 0px;
 }
 /* toTop button start */
 /* https://www.liaoxuefeng.com/article/895922498171008 */
@@ -211,9 +116,27 @@ a, a:visited {
 	opacity: 0;
 	display: none;
 }
+.side-left, .side-right {
+  position: fixed;
+  top: 0px;
+  margin: 6px;
+  padding: 10px 20px;
+  width: 120px;
+  max-width: 100%;
+  height: calc(100% - 40px);
+  background: white;
+}
+.side-left {
+  margin: 6px 6px 6px -170px;
+}
+.side-right {
+  left: calc(50% + 345px);
+}
 footer {
-  padding-bottom: 1px;
-  border-top: 1px solid silver;
+  margin: 0px auto;
+  padding: 10px 0px;
+  width: 680px;
+  max-width: 100%;
   background: white;
 }
 footer p {
@@ -224,11 +147,9 @@ footer p {
 	display: none;
 }
 .year-btn {
-  text-decoration: underline;
   cursor: pointer;
   display: inline-block;
 }
-
 @media all and (max-width: 1080px) {
 	nav {
 		width: 100%;
@@ -295,4 +216,12 @@ footer p {
 }
 .no-decor-link {
   text-decoration: none;
+}
+@media all and (max-width: 425px) {
+  .side-left {
+    margin: 0px;
+  }
+  .side-right {
+    display: none;
+  }
 }
