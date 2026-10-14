@@ -158,7 +158,7 @@ a, a:visited {
 .side-right .profile .pic img {
   max-width: 100%;
 }
-.side-right .profile .pic:before {
+.orange-v:before {
   position: absolute;
   content: "V";
   margin-top: 34px;
@@ -171,6 +171,22 @@ a, a:visited {
   font-size: 14px;
   font-weight: 700;
   background: #ff7800;
+  border: 1px solid #fff;
+  border-radius: 12px;
+}
+.blue-v:before {
+  position: absolute;
+  content: "V";
+  margin-top: 34px;
+  margin-left: 32px;
+  width: 16px;
+  height: 16px;
+  color: #fff;
+  text-align: center;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 700;
+  background: #179de9;
   border: 1px solid #fff;
   border-radius: 12px;
 }
