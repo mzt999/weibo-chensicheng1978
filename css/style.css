@@ -129,7 +129,7 @@ a, a:visited {
   top: 0px;
   margin: 6px;
   padding: 10px 20px;
-  height: calc(100% - 40px);
+  height: calc(100% - 14px);
   background: white;
 }
 .side-left {
