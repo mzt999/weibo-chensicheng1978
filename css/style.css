@@ -309,6 +309,9 @@ footer p {
     width: 100%;
     background: transparent;
   }
+  .hidden-on-mobile {
+    display: none;
+  }
   .side-right {
     display: none;
   }
