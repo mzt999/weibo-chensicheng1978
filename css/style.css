@@ -140,6 +140,7 @@ a, a:visited {
   left: calc(50% + 345px);
   padding-left: 10px;
   width: 290px;
+  overflow-y: scroll;
 }
 footer {
   margin: 0px auto;
