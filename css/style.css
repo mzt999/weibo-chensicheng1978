@@ -139,6 +139,7 @@ a, a:visited {
 .side-right {
   left: calc(50% + 345px);
   padding-left: 10px;
+  padding-right: 0px;
   width: 290px;
   overflow-y: scroll;
 }
