@@ -141,77 +141,6 @@ a, a:visited {
   padding-left: 10px;
   width: 290px;
 }
-.side-right a {
-  text-decoration: none;
-}
-.side-right .profile {
-  display: flex;
-  flex-direction: row;
-}
-.side-right .profile .pic {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  border: 1px solid silver;
-  overflow: hidden;
-}
-.side-right .profile .pic img {
-  max-width: 100%;
-}
-.orange-v:before {
-  position: absolute;
-  content: "V";
-  margin-top: 34px;
-  margin-left: 32px;
-  width: 16px;
-  height: 16px;
-  color: #fff;
-  text-align: center;
-  font-family: Arial;
-  font-size: 14px;
-  font-weight: 700;
-  background: #ff7800;
-  border: 1px solid #fff;
-  border-radius: 12px;
-}
-.blue-v:before {
-  position: absolute;
-  content: "V";
-  margin-top: 34px;
-  margin-left: 32px;
-  width: 16px;
-  height: 16px;
-  color: #fff;
-  text-align: center;
-  font-family: Arial;
-  font-size: 14px;
-  font-weight: 700;
-  background: #179de9;
-  border: 1px solid #fff;
-  border-radius: 12px;
-}
-.side-right .profile .name {
-  padding: 5px 10px;
-}
-.side-right .profile .intro {
-  font-size: 12px;
-  color: silver;
-}
-.side-right .profile .follow-btn {
-  color: #ff7800;
-  border-radius: 20px;
-  border: 1px solid;
-  margin: 16px 0px 16px auto;
-  padding: 2px 8px 6px 8px;
-  width: 71px;
-  text-align: center;
-}
-.side-right .profile .follow-btn .plus {
-  font-weight: bold;
-}
-.side-right .profile .follow-btn .follow {
-  font-size: 14px;
-}
 footer {
   margin: 0px auto;
   padding: 10px 0px;
@@ -261,7 +190,6 @@ footer p {
 .isShow {
 	display: block;
 }
-
 .blog-wrap {
   margin: 0px auto;
   min-height: calc(100vh - 169px);
@@ -313,6 +241,8 @@ footer p {
     display: none;
   }
   .side-right {
-    display: none;
+    position: relative;
+    left: auto;
+    width: 100%;
   }
 }
