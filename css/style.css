@@ -50,6 +50,22 @@ body {
   color: #ff8200;
   border-bottom: solid 1px;
 }
+.search-btn-left {
+  width: 78%;
+  display: inline-block;
+}
+.search-btn {
+  margin-right: 0px;
+  margin-left: auto;
+  padding: 2px;
+  width: 20%;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 14px;
+  border: solid 1px;
+  cursor: pointer;
+  display: inline-block;
+}
 /* toTop button start */
 /* https://www.liaoxuefeng.com/article/895922498171008 */
 .go-top, .go-bottom {
@@ -253,5 +269,11 @@ footer p {
     position: relative;
     left: auto;
     width: 100%;
+  }
+  .search-btn-left {
+    width: 70%;
+  }
+  .search-btn {
+    width: 28%;
   }
 }
