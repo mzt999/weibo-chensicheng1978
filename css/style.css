@@ -140,6 +140,9 @@ body {
   margin: 6px 6px 6px -170px;
   width: 155px;
 }
+.side-left a {
+  text-decoration: none;
+}
 .side-right {
   left: calc(50% + 345px);
   padding-left: 10px;
