@@ -66,6 +66,16 @@ body {
   border: solid 1px;
   display: inline-block;
 }
+.search-input {
+  margin: 8px auto;
+  padding: 6px 14px;
+  width: 96%;
+  font-size: 16px;
+  background: white;
+  border-radius: 16px;
+  border: solid 1px;
+  display: block;
+}
 /* toTop button start */
 /* https://www.liaoxuefeng.com/article/895922498171008 */
 .go-top, .go-bottom {
