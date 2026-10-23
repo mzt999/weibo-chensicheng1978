@@ -278,6 +278,7 @@ footer p {
   .side-right {
     position: relative;
     left: auto;
+    margin-left: 0px;
     width: 100%;
   }
   .search-btn-left {
